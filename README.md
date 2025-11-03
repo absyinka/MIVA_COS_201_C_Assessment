@@ -378,9 +378,9 @@ Instead of messy text, you get neat tables:
 
 ```
 ╔════════════════════════════════════════════╗
-║     📚 Student Record System Menu         ║
+║     📚 Student Record System Menu          ║
 ╠════════════════════════════════════════════╣
-║  1. ➕  Add a student                     ║
+║  1. ➕  Add a student                      ║
 ║  2. ✏️  Modify a student                   ║
 ║  3. ❌  Remove a student                   ║
 ╚════════════════════════════════════════════╝
@@ -642,7 +642,7 @@ Limited only by computer memory!
 
 **Step 1**: Compile the code
 ```bash
-gcc -std=c11 -O2 -Wall -Wextra -o student_records main.c
+gcc -std=c11 -O2 -Wall -Wextra -o student_records student_records.c
 ```
 
 **Step 2**: Run the program
