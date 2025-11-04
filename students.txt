@@ -1,0 +1,4 @@
+# Student Record System Data File
+# Format: roll|marks|name
+# Total records: 1
+1|69|Jay James
