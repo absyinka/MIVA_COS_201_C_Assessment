@@ -54,9 +54,9 @@ See everyone at once in a nice formatted table:
 ```
 📊 Student Records (Total: 3)
 ═══════════════════════════════════════════════════════
-[  1] Roll: 1     Name: John Doe       Marks:  85 [PASS]
-[  2] Roll: 2     Name: Jane Smith     Marks:  92 [PASS]
-[  3] Roll: 3     Name: Bob Johnson    Marks:  38 [FAIL]
+[1] Roll: 1     Name: John Doe       Marks:  85 [PASS]
+[2] Roll: 2     Name: Jane Smith     Marks:  92 [PASS]
+[3] Roll: 3     Name: Bob Johnson    Marks:  38 [FAIL]
 ═══════════════════════════════════════════════════════
 ```
 
