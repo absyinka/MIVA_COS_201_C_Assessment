@@ -644,10 +644,10 @@ gcc -std=c11 -O2 -Wall -Wextra -o student_records student_records.c
 
 **Step 5**: Save your work
 - Choose option 10 (Save to file)
-- Enter filename: test.txt
+- If no file exists, the `students.txt` file is created and the record(s) in the memory is added to it
 
 **Step 6**: Check the file
-- Open test.txt in any text editor
+- Open `students.txt` in any text editor
 - See your data saved!
 
 ---
