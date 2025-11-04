@@ -256,7 +256,7 @@ Step 7: Add to the list (expand list if needed)
    ↓
 Step 8: Mark that changes were made (unsaved data)
    ↓
-Step 9: Show success message: "✅ Student added successfully! [PASS]"
+Step 9: Show success message: "Student added successfully! [PASS]"
    ↓
 Step 10: Return to main menu
 ```
@@ -289,7 +289,7 @@ Step 7: Remember this filename for "Quick Save"
    ↓
 Step 8: Clear the "unsaved changes" flag
    ↓
-Step 9: Show "✅ Saved 3 records to 'my_students.txt'"
+Step 9: Show "Saved 3 records to 'my_students.txt'"
 ```
 
 ---
@@ -323,8 +323,8 @@ If you enter something invalid, it just asks again - no crash!
 You can't have two students with the same roll number:
 
 ```
-Student 1: Roll 101 → ✅ Added
-Try to add another with Roll 101 → ❌ Blocked!
+Student 1: Roll 101 → Added
+Try to add another with Roll 101 → Blocked!
 "Student with roll 101 already exists!"
 ```
 
@@ -355,35 +355,18 @@ No more accidentally losing your work!
 
 ---
 
-## 🎨 User-Friendly Design
-
-### Visual Indicators
-
-The program uses emojis and symbols to make things clear:
-
-```
-✅ Success messages (green checkmark)
-❌ Error messages (red X)
-⚠️  Warnings (yellow warning sign)
-📊 Data display (chart emoji)
-💾 Save operations (floppy disk)
-🔍 Search operations (magnifying glass)
-```
-
----
-
 ### Formatted Output
 
 Instead of messy text, you get neat tables:
 
 ```
-╔════════════════════════════════════════════╗
-║     📚 Student Record System Menu          ║
-╠════════════════════════════════════════════╣
-║  1. ➕  Add a student                      ║
-║  2. ✏️  Modify a student                   ║
-║  3. ❌  Remove a student                   ║
-╚════════════════════════════════════════════╝
+╔══════════════════════════════════════════╗
+║     Student Record System Menu           ║
+╠══════════════════════════════════════════╣
+║  1. Add a student                        ║
+║  2. Modify a student                     ║
+║  3. Remove a student                     ║
+╚══════════════════════════════════════════╝
 ```
 
 ---
@@ -394,14 +377,14 @@ Every action gives clear feedback:
 
 ```
 Adding student...
-✅ Student added successfully! [PASS]
+Student added successfully! [PASS]
 
 Removing student...
-🗑️  Removing: Roll: 101  Name: Alice Brown  Marks: 87 [PASS]
-✅ Student removed successfully!
+Removing: Roll: 101  Name: Alice Brown  Marks: 87 [PASS]
+Student removed successfully!
 
 Saving...
-✅ Saved 5 records to 'students.txt'
+Saved 5 records to 'students.txt'
 ```
 
 ---
