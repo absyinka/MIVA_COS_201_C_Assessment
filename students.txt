@@ -1,4 +1,6 @@
 # Student Record System Data File
 # Format: roll|marks|name
-# Total records: 1
-1|69|Jay James
+# Total records: 3
+1|74|Oma Omale
+2|81|Jaiye Jaiyeola
+3|39|Joe Joeseph
